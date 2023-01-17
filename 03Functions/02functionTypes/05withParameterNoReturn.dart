@@ -1,7 +1,5 @@
 //function with parameter but no return type
 
-import '01printNameFunction.dart';
-
 void add(int n1, int n2) {
   //parameter is present int n1 and int n2 are parameters
   print("The sum is ${n1 + n2}");
