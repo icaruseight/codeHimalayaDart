@@ -1,8 +1,11 @@
-void postionParameter(String name, String country) {
+void postionParameter({String? name, required String country}) {
   print("Hello $name you are from $country.");
 }
 
 void main() {
-  postionParameter("Sagar", "Nepal"); //passing vlaue in corrrect form
-  postionParameter("Nepal", "Sagar"); // passing value in incorrect form
+  postionParameter(
+      name: "Sagar", country: "Nepal"); //passing vlaue in corrrect form
+  postionParameter(
+      name: "Nepal", country: "Sagar"); // passing value in incorrect form
+  postionParameter(country: "Nepal", name: "Sagar");
 }
