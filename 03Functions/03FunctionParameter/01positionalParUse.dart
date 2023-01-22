@@ -1,4 +1,5 @@
 void postionParameter({String? name, required String country}) {
+  //using ? and required for null safety
   print("Hello $name you are from $country.");
 }
 
