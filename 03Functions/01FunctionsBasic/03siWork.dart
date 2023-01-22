@@ -1,6 +1,6 @@
 //Find SI using Function.
 
-void findSI(double p, double r, double t) {
+double? findSI(double p, double r, double t) {
   double si = p * t * r / 100;
   print("The simple interest is $si");
 }
