@@ -5,7 +5,7 @@ import 'dart:math';
 String generateRandomString(int lengthOfString) {
   final random = Random();
   const allChars =
-      'AaBbCcDdlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1EeFfGgHhIiJjKkL234567890';
+      'AaBbCcDdlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1EeFfGgHhIiJjKkL234567890@?/;_*+-';
   // below statement will generate a random string of length using the characters
   // and length provided to it
   final randomString = List.generate(
@@ -15,6 +15,7 @@ String generateRandomString(int lengthOfString) {
 }
 
 void main() {
-  print(generateRandomString(23));
-  print(generateRandomString(3));
+  print("Random generated password is ${generateRandomString(23)}");
+  print("Random generated password is ${generateRandomString(3)}");
+  print("Random generated password is ${generateRandomString(30)}");
 }
