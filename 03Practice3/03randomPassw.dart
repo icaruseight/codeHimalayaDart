@@ -15,7 +15,7 @@ String generateRandomString(int lengthOfString) {
 }
 
 void main() {
-  print("Random generated password is ${generateRandomString(23)}");
-  print("Random generated password is ${generateRandomString(3)}");
-  print("Random generated password is ${generateRandomString(30)}");
+  print("Random generated password is: ${generateRandomString(23)}");
+  print("Random generated password is: ${generateRandomString(3)}");
+  print("Random generated password is: ${generateRandomString(30)}");
 }
